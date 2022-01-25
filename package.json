@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "heroku-postbuild": "ng build --prod"
   },
   "engines": {
     "node": "v16.13.2",
@@ -35,6 +35,8 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1000.8",
+    "@angular/cli": "^13.1.4",
+    "@angular/compiler-cli": "^10.0.14",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
