@@ -1,0 +1,59 @@
+.grid {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    justify-content: center;
+}
+.color-result {
+    cursor: pointer;
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 16px 4px;
+    font-size: 20px;
+}
+.color-result:hover {
+    box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+.color-contents {
+    text-align: center;
+}
+.block-color {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 70px;
+}
+.nodata-text {
+    color: #405065;
+    text-align: center;
+    font-size: 18px;
+}
+
+// Responsiveness modifications
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: none;
+    }
+    // To choose 1 4 7 10 13 nth children...
+    .color-result:nth-child(3n + 1) { 
+        grid-column: auto / span 2;
+    } 
+}
+@media (max-width: 425px) {
+    .grid {
+        grid-template-columns: none;
+    }
+    .color-result:nth-child(n) {
+        grid-column: 1;
+    }
+}
+@media (min-width: 769px) {
+    .color-result:nth-child(4n + 1),
+    .color-result:nth-child(4n + 4) {
+        grid-column: auto / span 2;
+    }
+}

@@ -1,0 +1,20 @@
+<div class="main-content">
+    <div *ngIf="colorsData.length > 0">
+        <div class="grid">
+            <div *ngFor="let colorData of colorsData" class="color-result">
+                <div class="color-contents">
+                    <div class="block-color" [ngStyle]="{'background-color': colorData.hex}"></div>
+                </div>
+                <div class="color-contents">
+                    {{ colorData.name }}
+                </div>
+                <div class="color-contents">
+                    {{ colorData.hex }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nodata-text" *ngIf="colorsData.length === 0">
+        <p>Sorry, nothing to show now</p>
+    </div>
+</div>

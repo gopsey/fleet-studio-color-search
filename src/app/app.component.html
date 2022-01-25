@@ -1,0 +1,5 @@
+<div class="title-text">
+    <h1>Color Search</h1>
+</div>
+<app-search (listOfColors)="getDataFromChild($event)"></app-search>
+<app-related-colors [inputResultsFromRoot]="resultsFromSearch"></app-related-colors>
