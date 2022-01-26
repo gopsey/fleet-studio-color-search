@@ -8,7 +8,7 @@ A front end web application, with a responsive UI, which when given a word as in
 ++ Responsive: Used @media queries for responsive design for all device sizes
 ++ Debouncing: Implemented search input that calls API 
 ++ Component Interaction: Showcased component interaction between parent and child components using @Input and @Output decorators
-++ 
+++ Instant search: Implemented instant search using keyup event and observables to make API calls on the go
 
 ## Languages used
 
