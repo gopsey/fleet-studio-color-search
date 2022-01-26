@@ -4,12 +4,12 @@ A front end web application, with a responsive UI, which when given a word as in
 
 ## Features
 
-++ Masonry grid: Created a UI resembling masonry grid without any third party frameworks only using CSS
-++ Responsive: Used @media queries for responsive design for all device sizes
-++ Debouncing: Implemented search input that calls API 
-++ Component Interaction: Showcased component interaction between parent and child components using @Input and @Output decorators
-++ Instant search: Implemented instant search using keyup event and observables to make API calls on the go
-++ Searching a particular word will display the list of related colors along with color name and its hex code
+++ Masonry grid: Created a UI resembling masonry grid without any third party frameworks only using CSS  
+++ Responsive: Used @media queries for responsive design for all device sizes  
+++ Debouncing: Implemented search input that calls API  
+++ Component Interaction: Showcased component interaction between parent and child components using @Input and @Output decorators  
+++ Instant search: Implemented instant search using keyup event and observables to make API calls on the go  
+++ Searching a particular word will display the list of related colors along with color name and its hex code  
 
 ## Languages used
 
