@@ -9,7 +9,6 @@ export class AppComponent {
   title = 'color-relator';
   public resultsFromSearch: any = '';
   getDataFromChild(event: any) {
-    console.log('parent triggered')
     this.resultsFromSearch = event;
   }
 }

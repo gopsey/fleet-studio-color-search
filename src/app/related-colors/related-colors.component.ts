@@ -17,7 +17,6 @@ export class RelatedColorsComponent implements OnInit, OnChanges {
   
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.inputResultsFromRoot.currentValue !== "" && changes.inputResultsFromRoot.currentValue !== null) {
-      console.log('valuesChanged in child: ', changes.inputResultsFromRoot.currentValue.colors)
       this.colorsData = changes.inputResultsFromRoot.currentValue.colors;
     } else {
       this.colorsData = [];
