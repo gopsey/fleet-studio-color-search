@@ -21,14 +21,14 @@ Angular
 
 ## Run application locally
 
-To install required dependencies run `npm install`
+To install required dependencies run `npm install`  
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Third party applications
 
-Color search API: `https://github.com/meodai/color-names`
+Color search API: https://github.com/meodai/color-names
 
 ## Application result links
 
-Heroku link: `https://fleet-studio-color-search.herokuapp.com/`
-Github link: `https://github.com/gopsey/fleet-studio-color-search`
+Heroku link: https://fleet-studio-color-search.herokuapp.com/  
+Github link: https://github.com/gopsey/fleet-studio-color-search
